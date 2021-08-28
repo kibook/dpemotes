@@ -7,6 +7,14 @@ add dpemotes to your server.cfg
 
 start dpemotes
 
+Set server to latest gamebuild by opening run.bat (Windows) or run.sh (Linux) with a text editor (Notepad++ for Windows, or something similar)
+
+Add the following: +set sv_enforceGameBuild 2372.
+
+2372 is the current latest supported DLC for FiveM, the MPTuners DLC.
+
+For txAdmin, you can put in in the Settings > FXServer > Additional arguments. There is even as a placeholder at this place specifically for this.
+
 Other instructions please check the fivem forum thread
 
 https://forum.fivem.net/t/dpemotes-356ish-emotes-usable-while-walking-props-and-more/843105
