@@ -15,11 +15,11 @@ Add the following: +set sv_enforceGameBuild 2372.
 
 For txAdmin, you can put in in the Settings > FXServer > Additional arguments. There is even as a placeholder at this place specifically for this.
 
-SQL keybinds can be enabled in fxmanifest.lua, however have been commented out. Open it and remove the -- from line 6, then restart dpemotes
+SQL keybinds can be enabled in fxmanifest.lua, however have been commented out. Open it and remove the -- from line 6, then restart dpemotes.
 
--- dependency 'ghmattimysql'
+-- dependency 'ghmattimysql'.
 
 
-Other instructions please check the fivem forum thread
+Other instructions please check the fivem forum thread.
 
 https://forum.fivem.net/t/dpemotes-356ish-emotes-usable-while-walking-props-and-more/843105
