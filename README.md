@@ -1,5 +1,5 @@
 # dpemotes
-Emotes / Animations for fiveM with Prop support.
+Emotes / Animations for fiveM, now with with prop support for humans and dogs.
 
 Installation Instructions:
 
