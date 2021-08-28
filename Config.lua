@@ -13,7 +13,7 @@ Config = {
     AllowedInCars = true,
 -- You can disable the (F3) menu here / change the keybind.
 	MenuKeybindEnabled = true,
-	MenuKeybind = 170, -- Get the button number here https://docs.fivem.net/game-references/controls/
+	MenuKeybind = 116, -- Get the button number here https://docs.fivem.net/game-references/controls/
 -- You can disable the Favorite emote keybinding here.
 	FavKeybindEnabled = true,
 	FavKeybind = 171, -- Get the button number here https://docs.fivem.net/game-references/controls/
