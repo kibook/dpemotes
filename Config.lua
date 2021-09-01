@@ -13,7 +13,7 @@ Config = {
     AllowedInCars = true,
 -- You can disable the (F3) menu here / change the keybind.
 	MenuKeybindEnabled = true,
-	MenuKeybind = 116, -- Get the button number here https://docs.fivem.net/game-references/controls/
+	MenuKeybind = 166, -- Get the button number here https://docs.fivem.net/game-references/controls/
 -- You can disable the Favorite emote keybinding here.
 	FavKeybindEnabled = true,
 	FavKeybind = 171, -- Get the button number here https://docs.fivem.net/game-references/controls/
@@ -25,7 +25,7 @@ Config = {
 -- You can change the menu position here
 	MenuPosition = "right", -- (left, right)
 -- You can disable the Ragdoll keybinding here.
-	RagdollEnabled = true,
+	RagdollEnabled = false,
 	RagdollKeybind = 303, -- Get the button number here https://docs.fivem.net/game-references/controls/
 -- You can disable the Facial Expressions menu here.
 	ExpressionsEnabled = true,
@@ -35,7 +35,7 @@ Config = {
     SharedEmotesEnabled = true,
     CheckForUpdates = true,
 -- If you have the SQL imported enable this to turn on keybinding.
-    SqlKeybinding = true,
+    SqlKeybinding = false,
 }
 
 Config.KeybindKeys = {
@@ -89,6 +89,7 @@ Config.Languages = {
         ['makeitrain'] = "Press ~y~G~w~ to make it rain.",
         ['pee'] = "Hold ~y~G~w~ to pee.",
         ['spraychamp'] = "Hold ~y~G~w~ to spray champagne",
+		['stun'] = "Press ~y~G~w~ to 'use' stun gun.",
         ['bound'] = "Bound ",
         ['to'] = "to",
         ['currentlyboundemotes'] = " Currently bound emotes:",
@@ -135,6 +136,7 @@ Config.Languages = {
         ['camera'] = "Presse ~y~G~w~ utiliser le flash de l'appareil.",
         ['makeitrain'] = "Presse ~y~G~w~ jeter de l'argent.",
         ['pee'] = "Tenir ~y~G~w~ faire pipi.",
+		['stun'] = "Presse ~y~G~w~ 'utiliser' le pistolet paralysant.",
         ['spraychamp'] = "Tenir ~y~G~w~ vaporiser du champagne.",
         ['bound'] = "Liée ",
         ['to'] = "à",
@@ -182,6 +184,7 @@ Config.Languages = {
         ['camera'] = "Drücken ~y~G~w~ Kamerablitz verwenden.",
         ['makeitrain'] = "Drücken ~y~G~w~ Geld werfen.",
         ['pee'] = "Halt ~y~G~w~ urinieren.",
+		['stun'] ="Halt ~y~G~w~ G om stun gun te 'gebruiken'.",
         ['spraychamp'] = "Halt ~y~G~w~ champagner sprühen",
         ['bound'] = "Gebunden ",
         ['to'] = "zu",
@@ -229,6 +232,7 @@ Config.Languages = {
         ['camera'] = "Tryck ~y~G~w~ för att använda blixt.",
         ['makeitrain'] = "Tryck ~y~G~w~ för att kasta pengar.",
         ['pee'] = "Håll ~y~G~w~ att kissa.",
+		['stun'] ="Håll ~ y ~ Gw ~ för att "använda" stun gun.",
         ['spraychamp'] = "Håll ~y~G~w~ för att spraya champagne.",
         ['bound'] = "Bunde ",
         ['to'] = "till",
@@ -276,6 +280,7 @@ Config.Languages = {
         ['camera'] = "Presione ~y~G~w~ para usar el flash de la camara.",
         ['makeitrain'] = "Presiona ~y~G~w~ para hacer llover.",
         ['pee'] = "Mantiene ~y~G~w~ para mear.",
+		['stun'] ="Mantén ~ y ~ G ~ w ~ para 'usar' la pistola paralizante".,
         ['spraychamp'] = "Mantiene ~y~G~w~ rociar champán.",
         ['bound'] = "Unida ",
         ['to'] = "a",
