@@ -7,9 +7,11 @@ add dpemotes to your server.cfg
 
 start dpemotes
 
+For all animations to work, you will be required to run the latest build on FiveM, to do so;
+
 Set server to latest gamebuild by opening run.bat (Windows) or run.sh (Linux) with a text editor (Notepad++ for Windows, or something similar)
 
-Add the following: +set sv_enforceGameBuild 2372.
+Add the following: +set sv_enforceGameBuild 2372 (Or newer).
 
 2372 is the current latest supported DLC for FiveM, the MPTuners DLC.
 
