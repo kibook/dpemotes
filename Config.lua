@@ -1,5 +1,3 @@
--- Forked By TayMcKenzieNZ --
-
 Config = {
 -- Change the language of the menu here!.
 -- Note fr and de are google translated, if you would like to help out with translation / just fix it for your server check below and change translations yourself
@@ -27,7 +25,7 @@ Config = {
 -- You can change the menu position here
 	MenuPosition = "right", -- (left, right)
 -- You can enable or disable the Ragdoll keybinding here.
-	RagdollEnabled = false,
+	RagdollEnabled = true,
 	RagdollKeybind = 303, -- Get the button number here https://docs.fivem.net/game-references/controls/
 -- You can disable the Facial Expressions menu here.
 	ExpressionsEnabled = true,
