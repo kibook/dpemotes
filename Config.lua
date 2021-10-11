@@ -1,3 +1,5 @@
+-- Forked By TayMcKenzieNZ --
+
 Config = {
 -- Change the language of the menu here!.
 -- Note fr and de are google translated, if you would like to help out with translation / just fix it for your server check below and change translations yourself
