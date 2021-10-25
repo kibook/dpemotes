@@ -560,6 +560,18 @@ DP.AnimalEmotes = {
   {
     EmoteLoop = true
   }},
+  ["bdogbeg2"] = {"creatures@rottweiler@tricks@", "paw_right_loop", "Beg 2 (big dog)", AnimationOptions =
+  {
+    EmoteLoop = true
+  }},
+  ["bdogdump"] = {"creatures@rottweiler@move", "dump_loop", "Dump (big dog)", AnimationOptions =
+  {
+    Prop = 'prop_big_shit_02',
+    PropBone = 51826,
+    PropPlacement = {0.0,0.2000,-0.4600,0.0,-20.00, 0.0},
+    EmoteLoop = true,
+    EmoteMoving = false,
+  }},
   ["bdogitch"] = {"creatures@rottweiler@amb@world_dog_sitting@idle_a", "idle_a", "Itch (big dog)", AnimationOptions =
   {
     EmoteDuration = 2000
@@ -571,6 +583,14 @@ DP.AnimalEmotes = {
   ["bdogsit"] = {"creatures@rottweiler@amb@world_dog_sitting@base", "base", "Sit (big dog)", AnimationOptions =
   {
     EmoteLoop = true
+  }},
+  ["bdogpee"] = {"creatures@rottweiler@move", "pee_left_idle", "Pee (big dog)", AnimationOptions =
+  {
+    EmoteLoop = false
+  }},
+  ["bdogpee2"] = {"creatures@rottweiler@move", "pee_right_idle", "Pee 2 (big dog)", AnimationOptions =
+  {
+    EmoteLoop = false
   }},
   ["sdogbark"] = {"creatures@pug@amb@world_dog_barking@idle_a", "idle_a", "Bark (small dog)", AnimationOptions =
   {
@@ -584,9 +604,10 @@ DP.AnimalEmotes = {
   {
     EmoteLoop = true
   }},
-  ["laydownsmalldog"] = {"creatures@pug@amb@world_dog_sitting@idle_a", "idle_c", "Lay Down (small dog)", AnimationOptions =
+  ["sdogld"] = {"creatures@pug@amb@world_dog_sitting@idle_a", "idle_c", "Lay Down (small dog)", AnimationOptions =
   {
-    EmoteLoop = true
+    EmoteLoop = true,
+    EmoteMoving = false,
   }},
   ["sdogshake"] = {"creatures@pug@amb@world_dog_barking@idle_a", "idle_c", "Shake (small dog)", AnimationOptions =
   {
@@ -2640,7 +2661,15 @@ DP.PropEmotes = {
   }},
   ["phonecall"] = {"cellphone@", "cellphone_call_listen_base", "Phone Call", AnimationOptions =
   {
-    Prop = "prop_npc_phone_02",
+    Prop = "prop_phone_ing",
+    PropBone = 28422,
+    PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+    EmoteLoop = true,
+    EmoteMoving = true,
+  }},
+  ["phonecall2"] = {"random@kidnap_girl", "ig_1_girl_on_phone_loop", "Phone Call 2", AnimationOptions =
+  {
+    Prop = "prop_phone_ing",
     PropBone = 28422,
     PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
     EmoteLoop = true,
@@ -3045,6 +3074,14 @@ DP.PropEmotes = {
   ["leafblower"] = {"amb@world_human_gardener_leaf_blower@base", "base", "Leaf Blower", AnimationOptions =
   {
     Prop = "prop_leaf_blower_01",
+    PropBone = 28422,
+    PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
+    EmoteLoop = true,
+    EmoteMoving = true,
+  }},
+  ["bbqf"] = {"amb@prop_human_bbq@male@idle_a", "idle_b", "BBQ (Female)", AnimationOptions =
+  {
+    Prop = "prop_fish_slice_01",
     PropBone = 28422,
     PropPlacement = {0.0, 0.0, 0.0, 0.0, 0.0, 0.0},
     EmoteLoop = true,
