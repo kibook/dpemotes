@@ -1,25 +1,57 @@
-# dpemotes
-Emotes / Animations for fiveM, now with with prop support for humans and dogs.
+# dpEmotes
 
-Installation Instructions:
+Emotes / Animations for FiveM with human, animal and prop support 🐩
+
+# Available in:
+
+* English 🇺🇲
+
+* French 🇫🇷
+
+* German 🇩🇪
+
+* Swedish 🇸🇪
+
+* Spanish 🇪🇸
+
+* Dutch 🇳🇱
+
+All languages were translated using Google Translate.
+
+If you happen to find any incorrect translations, please feel free to provide an "issue" with the correct translations.
+
+Languages can be selected and/or added in config.lua.
+
+# Ragdoll 🥴
+
+* To disable ragdoll, change `RagdollEnabled = true,` to false in config.lua.
+
+* To change which key is responsible for ragdoll, `RagdollKeybind = 303` is currently set to `U` by default., -- Get the button number here https://docs.fivem.net/game-references/controls/
+
+
+# Installation Instructions:
 
 add dpemotes to your server.cfg
 
 start dpemotes
 
-Set server to latest gamebuild by opening run.bat (Windows) or run.sh (Linux) with a text editor (Notepad++ for Windows, or something similar)
+# Optional Add-Ons 🛠️
 
-Add the following: +set sv_enforceGameBuild 2372.
+* Fixes an issue with the clipboard and adds textures to paper (/e clipboard)
 
-2372 is the current latest supported DLC for FiveM, the MPTuners DLC.
+* Adds textures to the mugshot prop (/e mugshot)
 
-For txAdmin, you can put in in the Settings > FXServer > Additional arguments. There is even as a placeholder at this place specifically for this.
+* Changes umbrella texture to black (/e umbrella)
 
-SQL keybinds can be enabled in fxmanifest.lua, however have been commented out. Open it and remove the comment from line 6, then restart dpemotes.
+* Retextured protest sign (can be changed using Texture Toolkit: https://www.gta5-mods.com/tools/texture-toolkit)
 
-These two lines:  -- dependency 'ghmattimysql'.
+**Grab it here:** 
+
+https://github.com/TayMcKenzieNZ/addonsfordpemotes
 
 
-Other instructions please check the fivem forum thread.
+# Additional Instructions 
+
+Please check the fivem forum thread
 
 https://forum.fivem.net/t/dpemotes-356ish-emotes-usable-while-walking-props-and-more/843105
